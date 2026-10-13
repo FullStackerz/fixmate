@@ -16,7 +16,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "FixMate — Home Appliance Repair",
+  title: "Homelyo — Home Appliance Repair",
   description:
     "Book verified technicians for AC, refrigerator, washing machine, microwave and dishwasher repair. Upfront inspection fees and itemised quotes before any work starts.",
 };

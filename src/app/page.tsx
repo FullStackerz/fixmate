@@ -282,7 +282,7 @@ export default function LandingPage() {
                 <div className="grid h-[340px] grid-cols-[1.35fr_1fr] grid-rows-2 gap-3 sm:h-[460px] sm:gap-4 lg:h-[560px]">
                   <Photo
                     src={PHOTOS.technicianRepair}
-                    alt="FixMate technician repairing a home appliance"
+                    alt="Homelyo technician repairing a home appliance"
                     className="row-span-2 rounded-3xl shadow-pop"
                     sizes="(max-width: 1024px) 58vw, 330px"
                     priority
@@ -524,7 +524,7 @@ export default function LandingPage() {
                   <ShieldCheck className="h-6 w-6" strokeWidth={1.7} aria-hidden />
                   <Wrench className="absolute -bottom-1.5 -right-1.5 h-5 w-5 rounded-full bg-white p-1 text-brand-600 ring-1 ring-brand-100" strokeWidth={2} aria-hidden />
                 </span>
-                <h2 className="mt-5 text-2xl font-bold tracking-tight text-gray-900">The FixMate promise</h2>
+                <h2 className="mt-5 text-2xl font-bold tracking-tight text-gray-900">The Homelyo promise</h2>
                 <p className="mt-2 text-gray-600">Clear rules for every booking, so you always know what you are paying for and who is coming to your home.</p>
               </div>
               <ul className="grid gap-x-8 gap-y-7 sm:grid-cols-2">
@@ -555,7 +555,7 @@ export default function LandingPage() {
               <div className="relative z-10 p-6 sm:p-10">
                 <p className="text-sm font-medium text-brand-300">For professionals</p>
                 <h2 className="mt-2 text-2xl font-bold tracking-tight sm:text-3xl">Are you an appliance technician?</h2>
-                <p className="mt-2 max-w-md text-white/70">Register as a FixMate professional for steady jobs near you, transparent payouts and a simple app to manage your day.</p>
+                <p className="mt-2 max-w-md text-white/70">Register as a Homelyo professional for steady jobs near you, transparent payouts and a simple app to manage your day.</p>
                 <ul className="mt-5 space-y-2 text-sm text-white/85">
                   {["Jobs matched to your skills and area", "Weekly payouts with full breakdown", "Flexible hours, you choose your slots"].map((t) => (
                     <li key={t} className="flex items-center gap-2"><Check className="h-4 w-4 text-brand-300" strokeWidth={2.5} aria-hidden />{t}</li>
@@ -568,7 +568,7 @@ export default function LandingPage() {
               <div className="relative min-h-[240px] md:min-h-full">
                 <Photo
                   src={PHOTOS.technicianPortrait}
-                  alt="A FixMate professional technician"
+                  alt="A Homelyo professional technician"
                   className="!absolute inset-0"
                   sizes="(max-width: 768px) 100vw, 480px"
                 />

@@ -49,7 +49,7 @@ export default function LoginPage() {
       app: "Operations",
       description: "Manage bookings, technicians, catalogue and inventory.",
       name: "Operations Admin",
-      detail: "ops@fixmate.in",
+      detail: "ops@homelyo.in",
       href: "/admin",
       icon: ShieldCheck,
     },
@@ -63,7 +63,7 @@ export default function LoginPage() {
   return (
     <div className="flex min-h-screen flex-col bg-surface-50">
       <header className="mx-auto flex h-16 w-full max-w-6xl items-center px-4 sm:px-6">
-        <Link href="/" aria-label="FixMate home"><Logo /></Link>
+        <Link href="/" aria-label="Homelyo home"><Logo /></Link>
       </header>
 
       <main className="flex flex-1 items-center justify-center px-4 py-10">
@@ -96,7 +96,7 @@ export default function LoginPage() {
           </div>
 
           <p className="mt-8 text-center text-xs text-gray-500">
-            By continuing you agree to the FixMate Terms of Service and Privacy Policy.
+            By continuing you agree to the Homelyo Terms of Service and Privacy Policy.
           </p>
         </div>
       </main>

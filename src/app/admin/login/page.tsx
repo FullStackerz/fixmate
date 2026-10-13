@@ -12,12 +12,12 @@ function AdminLogin() {
     <LoginForm
       role="admin"
       title="Operations console"
-      subtitle="Sign in with your FixMate staff account."
+      subtitle="Sign in with your Homelyo staff account."
       defaultNext="/admin"
       allowedPrefix="/admin"
       next={next}
       photo={PHOTOS.toolsFlatlay}
-      photoCaption={{ title: "Run FixMate in real time", body: "Bookings, technicians, catalogue and inventory, updated live." }}
+      photoCaption={{ title: "Run Homelyo in real time", body: "Bookings, technicians, catalogue and inventory, updated live." }}
     />
   );
 }

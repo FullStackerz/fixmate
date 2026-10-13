@@ -552,7 +552,7 @@ function CustomerHomeContent() {
           <div className="relative min-h-[180px]">
             <Photo
               src={PHOTOS.technicianPortrait}
-              alt="A verified FixMate technician"
+              alt="A verified Homelyo technician"
               className="!absolute inset-0"
               sizes="(max-width: 768px) 100vw, 460px"
             />
@@ -561,7 +561,7 @@ function CustomerHomeContent() {
           <div className="relative p-6 sm:p-8">
             <div className="pointer-events-none absolute -right-20 -top-20 h-64 w-64 rounded-full bg-brand-500/30 blur-3xl" aria-hidden />
             <p className="relative text-sm font-medium text-brand-300">Every booking includes</p>
-            <h2 className="relative mt-1 text-2xl font-bold tracking-tight">The FixMate promise</h2>
+            <h2 className="relative mt-1 text-2xl font-bold tracking-tight">The Homelyo promise</h2>
             <ul className="relative mt-6 grid gap-5 sm:grid-cols-2">
               {PROMISES.map((p) => (
                 <li key={p.title} className="flex gap-3">

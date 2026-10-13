@@ -477,7 +477,7 @@ export default function TechJobDetailPage() {
     if (booking.status === "disputed") {
       return (
         <Callout tone="danger" icon={CircleAlert} title="Under review">
-          This job is being reviewed by the FixMate support team. They&rsquo;ll contact you if anything is needed.
+          This job is being reviewed by the Homelyo support team. They&rsquo;ll contact you if anything is needed.
         </Callout>
       );
     }

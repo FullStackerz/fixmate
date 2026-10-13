@@ -36,7 +36,7 @@ export function LoginForm({
 }: LoginFormProps) {
   const router = useRouter();
   const [identifier, setIdentifier] = useState(
-    role === "admin" ? "admin@fixmate.in" : "rajesh@fixmate.in"
+    role === "admin" ? "admin@homelyo.in" : "rajesh@homelyo.in"
   );
   const [password, setPassword] = useState("password123");
 
@@ -55,7 +55,7 @@ export function LoginForm({
       <div className="flex flex-1 flex-col justify-center px-4 py-12 sm:px-6 lg:flex-none lg:px-20 xl:px-24">
         <div className="mx-auto w-full max-w-sm lg:w-96">
           <div className="mb-8">
-            <Link href="/" aria-label="FixMate home">
+            <Link href="/" aria-label="Homelyo home">
               <Logo />
             </Link>
             <h1 className="mt-8 text-2xl font-semibold tracking-tight text-gray-900">

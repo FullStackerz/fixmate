@@ -199,7 +199,7 @@ function ServiceBooking({ service, initialIssue, onContinue }: { service: Servic
     push(serviceImage(service), `${service.name}`);
     push(media?.cover, `${categoryName} at home`);
     media?.gallery.forEach((g, i) => push(g, `${categoryName} photo ${i + 2}`));
-    push(PHOTOS.technicianRepair, "FixMate technician repairing an appliance");
+    push(PHOTOS.technicianRepair, "Homelyo technician repairing an appliance");
     return list.slice(0, 5);
   }, [service, categoryName]);
   const [active, setActive] = useState(0);
@@ -401,7 +401,7 @@ function ServiceBooking({ service, initialIssue, onContinue }: { service: Servic
 
           <p className="mt-4 text-[15px] leading-7 text-gray-600 animate-fade-up" style={stagger(4)}>{service.description}</p>
 
-          <ul className="mt-5 grid grid-cols-1 gap-2 min-[420px]:grid-cols-3" aria-label="FixMate promise">
+          <ul className="mt-5 grid grid-cols-1 gap-2 min-[420px]:grid-cols-3" aria-label="Homelyo promise">
             {PROMISES.map(({ icon: Icon, label }, i) => (
               <li
                 key={label}
@@ -704,7 +704,7 @@ function ServiceBooking({ service, initialIssue, onContinue }: { service: Servic
                   </ol>
                 </div>
                 <div className="relative hidden md:block">
-                  <Image src={PHOTOS.technicianPortrait} alt="A FixMate technician" fill sizes="200px" placeholder="blur" className="object-cover" />
+                  <Image src={PHOTOS.technicianPortrait} alt="A Homelyo technician" fill sizes="200px" placeholder="blur" className="object-cover" />
                 </div>
               </div>
             </div>

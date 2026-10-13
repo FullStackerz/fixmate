@@ -11,7 +11,7 @@ function TechnicianLogin() {
   return (
     <LoginForm
       role="technician"
-      title="FixMate Partner sign in"
+      title="Homelyo Partner sign in"
       subtitle="See your job offers, send quotes and complete repairs."
       defaultNext="/technician"
       allowedPrefix="/technician"

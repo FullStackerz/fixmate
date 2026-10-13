@@ -58,7 +58,7 @@ export function Logo({ className = "", inverted = false }: { className?: string;
       <span className={cx("flex h-8 w-8 items-center justify-center rounded-lg shadow-sm", inverted ? "bg-white text-gray-900" : "bg-gray-900 text-white")}>
         <Wrench className="h-4 w-4" strokeWidth={2.5} aria-hidden />
       </span>
-      <span className={cx("text-[17px] font-semibold tracking-tight", inverted ? "text-white" : "text-gray-900")}>FixMate</span>
+      <span className={cx("text-[17px] font-semibold tracking-tight", inverted ? "text-white" : "text-gray-900")}>Homelyo</span>
     </span>
   );
 }
@@ -86,7 +86,7 @@ function AccountMenu({ role, placement = "down", onReset, compact }: {
       ? { name: state.customers[0]?.name ?? "Customer", sub: state.customers[0]?.email ?? "" }
       : role === "technician"
         ? { name: state.technicians.find((t) => t.id === "tech_001")?.name ?? "Technician", sub: "Service partner" }
-        : { name: "Operations Admin", sub: "ops@fixmate.in" };
+        : { name: "Operations Admin", sub: "ops@homelyo.in" };
 
   const go = (href: string) => { setOpen(false); router.push(href); };
 
@@ -212,7 +212,7 @@ export function SiteHeader({ onReset }: { onReset?: () => void }) {
     <header className="sticky top-0 z-40 border-b border-surface-200 bg-white">
       <Suspense fallback={null}><SearchQuerySync onChange={setQuery} /></Suspense>
       <div className="mx-auto flex h-[72px] max-w-6xl items-center gap-3 px-4 sm:px-6 md:gap-4">
-        <Link href={signedIn ? "/customer" : "/"} aria-label="FixMate home" className="shrink-0"><Logo /></Link>
+        <Link href={signedIn ? "/customer" : "/"} aria-label="Homelyo home" className="shrink-0"><Logo /></Link>
         <div className="hidden w-44 shrink-0 md:block lg:w-60">{location}</div>
         <div className="hidden max-w-md flex-1 md:block">{searchBox}</div>
         <div className="ml-auto flex items-center gap-1 sm:gap-2">
@@ -297,8 +297,8 @@ export function SiteFooter() {
           ))}
         </div>
         <div className="mt-10 flex flex-col gap-2 border-t border-surface-300 pt-6 text-xs text-gray-500 sm:flex-row sm:justify-between">
-          <span>© {new Date().getFullYear()} FixMate. All rights reserved.</span>
-          <span>support@fixmate.in · 1800-000-3491 · 9 AM – 9 PM, all days</span>
+          <span>© {new Date().getFullYear()} Homelyo. All rights reserved.</span>
+          <span>support@homelyo.in · 1800-000-3491 · 9 AM – 9 PM, all days</span>
         </div>
       </div>
     </footer>

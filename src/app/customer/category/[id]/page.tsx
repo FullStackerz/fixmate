@@ -457,7 +457,7 @@ export default function CategoryPage() {
           <div className="space-y-5 lg:sticky lg:top-[146px]">
             <Reveal>
               <div className="rounded-2xl border border-surface-200 p-5">
-                <h2 className="text-base font-semibold text-gray-900">Why FixMate</h2>
+                <h2 className="text-base font-semibold text-gray-900">Why Homelyo</h2>
                 <ul className="mt-4 space-y-4">
                   {WHY.map((w) => (
                     <li key={w.title} className="flex gap-3">
@@ -479,7 +479,7 @@ export default function CategoryPage() {
                 <Photo src={PHOTOS.technicianRepair} alt="Technician repairing an appliance" className="!absolute inset-0" sizes="(max-width: 1024px) 100vw, 340px" overlay />
                 <div className="absolute inset-x-0 bottom-0 p-5 text-white">
                   <span className="inline-flex items-center gap-1 rounded-full bg-white/15 px-2.5 py-1 text-[11px] font-semibold uppercase tracking-wide backdrop-blur-md">
-                    <BadgeCheck className="h-3.5 w-3.5" aria-hidden /> FixMate verified
+                    <BadgeCheck className="h-3.5 w-3.5" aria-hidden /> Homelyo verified
                   </span>
                   <p className="mt-2 text-lg font-semibold leading-snug">Verified, background-checked technicians</p>
                 </div>
@@ -539,7 +539,7 @@ export default function CategoryPage() {
             <Photo
               key={i}
               src={src}
-              alt={i < gallery.length ? `${short} in a home` : i === gallery.length ? "FixMate technician" : "Technician tools"}
+              alt={i < gallery.length ? `${short} in a home` : i === gallery.length ? "Homelyo technician" : "Technician tools"}
               className={cx("h-48 w-60 shrink-0 snap-start rounded-2xl sm:h-56 sm:w-auto", i === 0 && "sm:col-span-2")}
               sizes="(max-width: 640px) 240px, (max-width: 1152px) 50vw, 560px"
             />
@@ -551,7 +551,7 @@ export default function CategoryPage() {
       <Reveal as="section" className="mt-16 grid gap-6 lg:grid-cols-[280px_minmax(0,1fr)] lg:gap-12">
         <div>
           <h2 className="text-xl font-semibold text-gray-900 sm:text-2xl">Frequently asked questions</h2>
-          <p className="mt-2 text-sm text-gray-500">About booking {/^[aeiou]/i.test(short) ? "an" : "a"} {short === "AC" ? "AC" : short.toLowerCase()} technician with FixMate.</p>
+          <p className="mt-2 text-sm text-gray-500">About booking {/^[aeiou]/i.test(short) ? "an" : "a"} {short === "AC" ? "AC" : short.toLowerCase()} technician with Homelyo.</p>
         </div>
         <div className="rounded-2xl border border-surface-200 px-5">
           {faqs.map((f) => <FaqItem key={f.q} q={f.q} a={f.a} />)}
